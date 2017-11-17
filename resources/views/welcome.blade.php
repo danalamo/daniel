@@ -53,6 +53,7 @@
                 border-radius: 4px;
                 padding: 3rem;
                 border-bottom: 5px solid #bb6a6a;
+                box-shadow: 0px 0px 1px #a0a0a0;
             }
 
             .mypic {
