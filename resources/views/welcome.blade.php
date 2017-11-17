@@ -7,10 +7,8 @@
         <link rel="icon" href="d-logo.png?v=1.1">
 
         <title>Daniel Alamo</title>
-
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
         <!-- Styles -->
         <style>
             html, body {
@@ -21,6 +19,12 @@
                 height: 100vh;
                 margin: 0;
                 font-size: 16px;
+                font-size: 11px !important;
+            }
+            
+            body {
+                background: url(background-laravel-beach.jpeg);
+                background-size: cover;
             }
 
             .full-height {
@@ -45,6 +49,10 @@
 
             .content {
                 text-align: center;
+                background: #fffffff7;
+                border-radius: 4px;
+                padding: 3rem;
+                border-bottom: 5px solid #bb6a6a;
             }
 
             .mypic {
