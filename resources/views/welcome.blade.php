@@ -63,7 +63,7 @@
             }
 
             .title {                
-                font-size: 5rem;
+                font-size: 4rem;
             }
 
             .links > a {
@@ -116,11 +116,12 @@
             @endif
 
             <div class="content">            
-                
-                <img class="mypic m-b-md" 
+                    
+                <img class="mypic" 
                     src="https://avatars1.githubusercontent.com/u/6430396?v=4&s=460" />
-
-                <div class="title m-b-md">
+                
+                <h1>Daniel Alamo</h1>
+                <div class="title m-b-md">                    
                     Laravel Developer
                 </div>
 
