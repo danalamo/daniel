@@ -74,10 +74,17 @@
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+                padding: 0 5px;
             }
 
             .m-b-md {
                 margin-bottom: 2.5rem;
+            }
+            .round {
+                border: 1px solid #626b6e;
+                padding: 15px;
+                border-radius: 100%;
+                font-size: 1.3rem !important;
             }
 
             @media screen and (max-width: 1200px) {
@@ -92,6 +99,7 @@
                 }
             }
         </style>
+        <script src="https://use.fontawesome.com/94dd692c46.js"></script>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -116,10 +124,20 @@
                 </div>
 
                 <div class="links">
-                    <a href="//linkedin.com/in/dalamo">Linked In</a>
-                    <a href="//github.com/danalamo">GitHub</a>
-                    <a href="//laravel.com">Laravel</a>
-                    <a href="//laravel-news.com">News</a>
+                    <a href="//linkedin.com/in/dalamo">
+                        <i class="round fa fa-linkedin"></i>
+                        <!-- Linked In -->
+                    </a>
+                    <a href="//github.com/danalamo">
+                        <i class="round fa fa-github"></i>
+                        <!-- GitHub -->
+                    </a>
+                    <a href="//bitbucket.org/da8643">
+                        <i class="round fa fa-bitbucket"></i>
+                        <!-- BitBucket -->
+                    </a>
+                    <!-- <a href="//laravel.com">Laravel</a> -->
+                    <!-- <a href="//laravel-news.com">News</a> -->
                 </div>
             </div>
         </div>
