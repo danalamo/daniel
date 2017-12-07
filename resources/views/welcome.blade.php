@@ -134,9 +134,13 @@
                         <i class="round fa fa-github"></i>
                         <!-- GitHub -->
                     </a>
-                    <a href="//bitbucket.org/da8643">
+                    <a href="//bitbucket.org/danalamo">
                         <i class="round fa fa-bitbucket"></i>
                         <!-- BitBucket -->
+                    </a>
+                    <br><br>
+                    <a href="/pet-store">
+                        Pet Store &rarr;
                     </a>
                     <!-- <a href="//laravel.com">Laravel</a> -->
                     <!-- <a href="//laravel-news.com">News</a> -->
