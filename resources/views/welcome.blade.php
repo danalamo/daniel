@@ -49,10 +49,11 @@
 
             .content {
                 text-align: center;
-                background: #fffffff7;
+                #background: #fffffff7;
+                background: rgba(255, 255, 255, 0.94);
                 border-radius: 4px;
                 padding: 3rem;
-                border-bottom: 5px solid #bb6a6a;
+                border-bottom: 8px solid #bb6a6a;
                 box-shadow: 0px 0px 1px #a0a0a0;
             }
 
@@ -122,7 +123,7 @@
                 
                 <h1>Daniel Alamo</h1>
                 <div class="title m-b-md">                    
-                    Laravel Developer
+                    Software Engineer
                 </div>
 
                 <div class="links">
@@ -139,9 +140,11 @@
                         <!-- BitBucket -->
                     </a>
                     <br><br>
+                    <!--
                     <a href="/pet-store">
                         Pet Store &rarr;
                     </a>
+                    -->
                     <!-- <a href="//laravel.com">Laravel</a> -->
                     <!-- <a href="//laravel-news.com">News</a> -->
                 </div>
