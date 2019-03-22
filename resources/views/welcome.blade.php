@@ -3,8 +3,8 @@
     <head>
         <meta property="og:url"                content="https://danielalamo.com" />
         <meta property="og:type"               content="article" />
-        <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
-        <meta property="og:description"        content="How much does culture influence creative thinking?" />
+        <meta property="og:title"              content="Support NMCYA Team - June Blue Skies Mission Trip" />
+        <meta property="og:description"        content="Partner with Blue Skies Ministries to provide a weeklong beach retreat for families battling pediatric cancer. Let's afford them the opportunity to relax, play, build community, have fun and above all take a break from the daily struggle of living with pediatric cancer." />
         <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
 
         <meta charset="utf-8">
