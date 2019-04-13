@@ -104,9 +104,9 @@
                 <a href="//laravel.com">Laravel</a>
                 <a href="//laravel-news.com">News</a>
                 
-                <button @click="getVerse">Load Verse</button>
+                <!--<button @click="getVerse">Load Verse</button>-->
                 
-                <pre style="text-align:left;">{{ $data }}</pre>
+                <!--<pre style="text-align:left;">{{ $data }}</pre>-->
                 
             </div>
         </div>
