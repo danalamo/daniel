@@ -11,6 +11,8 @@
 |
 */
 
+use Illuminate\Database\Connection;
+
 Route::view('/welcome', 'welcome');
 Route::view('/', 'daniel');
 Route::get('/verse', function()
@@ -34,4 +36,16 @@ Route::get('/verse', function()
     ];
     
     return response($response);
+});
+
+Route::get('/api', function(){
+    /* @var $db Connection */
+    $db = \DB::connection();
+    $res = $db
+        ->table(request('table', 'users'))
+        ->paginate(request('per_page', 25))
+    ;
+    $res = json_encode($res, JSON_PRETTY_PRINT);
+    $res = request()->wantsJson() ? $res : "<pre>$res</pre>"; 
+    return response($res);
 });
