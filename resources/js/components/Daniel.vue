@@ -77,7 +77,7 @@
                 class="mcontent" 
                 slot-scope="obj"
                 
-                style="{ 
+                :style="{ 
                     transform: `
                         translateY(${obj.offset}px) 
                         scale(${obj.scale})
