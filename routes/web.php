@@ -15,6 +15,8 @@ use Illuminate\Database\Connection;
 
 Route::view('/welcome', 'welcome');
 Route::view('/', 'daniel');
+Route::view('/upwork', 'upwork');
+
 Route::get('/verse', function()
 {
     $data = file_get_contents("http://www.ourmanna.com/verses/api/get/?format=json&order=random");
