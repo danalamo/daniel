@@ -15,7 +15,7 @@ use Illuminate\Database\Connection;
 
 Route::view('/welcome', 'welcome');
 Route::view('/', 'daniel');
-Route::view('/upwork', 'upwork');
+Route::redirect('/upwork-profile', 'https://www.upwork.com/freelancers/~01781d771eb8d36a10');
 
 Route::get('/verse', function()
 {
